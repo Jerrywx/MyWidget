@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		090B65D6255977FC00257F7A /* PokeMasterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090B65D5255977FC00257F7A /* PokeMasterApp.swift */; };
+		090B65D8255977FC00257F7A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090B65D7255977FC00257F7A /* ContentView.swift */; };
+		090B65DA255977FF00257F7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 090B65D9255977FF00257F7A /* Assets.xcassets */; };
+		090B65DD255977FF00257F7A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 090B65DC255977FF00257F7A /* Preview Assets.xcassets */; };
 		09BB29D92557ACBB00FB3140 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BB29D82557ACBB00FB3140 /* CalculatorBrain.swift */; };
 		3013B32525553CCB0014A15A /* CalculatorButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3013B32425553CCB0014A15A /* CalculatorButtonItem.swift */; };
 		30E6E2FD25512E7A00F1DF78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E6E2FC25512E7A00F1DF78 /* AppDelegate.swift */; };
@@ -37,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		090B65D3255977FC00257F7A /* PokeMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokeMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		090B65D5255977FC00257F7A /* PokeMasterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeMasterApp.swift; sourceTree = "<group>"; };
+		090B65D7255977FC00257F7A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		090B65D9255977FF00257F7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		090B65DC255977FF00257F7A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		090B65DE255977FF00257F7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09BB29D82557ACBB00FB3140 /* CalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 		3013B32425553CCB0014A15A /* CalculatorButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorButtonItem.swift; sourceTree = "<group>"; };
 		30E6E2F925512E7A00F1DF78 /* MyWidget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWidget.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -56,6 +66,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		090B65D0255977FC00257F7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		30E6E2F625512E7A00F1DF78 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -80,12 +97,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		090B65D4255977FC00257F7A /* PokeMaster */ = {
+			isa = PBXGroup;
+			children = (
+				090B65D5255977FC00257F7A /* PokeMasterApp.swift */,
+				090B65D7255977FC00257F7A /* ContentView.swift */,
+				090B65D9255977FF00257F7A /* Assets.xcassets */,
+				090B65DE255977FF00257F7A /* Info.plist */,
+				090B65DB255977FF00257F7A /* Preview Content */,
+			);
+			path = PokeMaster;
+			sourceTree = "<group>";
+		};
+		090B65DB255977FF00257F7A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				090B65DC255977FF00257F7A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		30E6E2F025512E7A00F1DF78 = {
 			isa = PBXGroup;
 			children = (
 				30E6E2FB25512E7A00F1DF78 /* MyWidget */,
 				30E6E31225512E7D00F1DF78 /* MyWidgetTests */,
 				30E6E31D25512E7D00F1DF78 /* MyWidgetUITests */,
+				090B65D4255977FC00257F7A /* PokeMaster */,
 				30E6E2FA25512E7A00F1DF78 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,6 +134,7 @@
 				30E6E2F925512E7A00F1DF78 /* MyWidget.app */,
 				30E6E30F25512E7D00F1DF78 /* MyWidgetTests.xctest */,
 				30E6E31A25512E7D00F1DF78 /* MyWidgetUITests.xctest */,
+				090B65D3255977FC00257F7A /* PokeMaster.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -145,6 +184,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		090B65D2255977FC00257F7A /* PokeMaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 090B65E1255977FF00257F7A /* Build configuration list for PBXNativeTarget "PokeMaster" */;
+			buildPhases = (
+				090B65CF255977FC00257F7A /* Sources */,
+				090B65D0255977FC00257F7A /* Frameworks */,
+				090B65D1255977FC00257F7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PokeMaster;
+			productName = PokeMaster;
+			productReference = 090B65D3255977FC00257F7A /* PokeMaster.app */;
+			productType = "com.apple.product-type.application";
+		};
 		30E6E2F825512E7A00F1DF78 /* MyWidget */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30E6E32325512E7D00F1DF78 /* Build configuration list for PBXNativeTarget "MyWidget" */;
@@ -207,6 +263,9 @@
 				LastSwiftUpdateCheck = 1210;
 				LastUpgradeCheck = 1210;
 				TargetAttributes = {
+					090B65D2255977FC00257F7A = {
+						CreatedOnToolsVersion = 12.1;
+					};
 					30E6E2F825512E7A00F1DF78 = {
 						CreatedOnToolsVersion = 12.1;
 					};
@@ -236,11 +295,21 @@
 				30E6E2F825512E7A00F1DF78 /* MyWidget */,
 				30E6E30E25512E7D00F1DF78 /* MyWidgetTests */,
 				30E6E31925512E7D00F1DF78 /* MyWidgetUITests */,
+				090B65D2255977FC00257F7A /* PokeMaster */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		090B65D1255977FC00257F7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090B65DD255977FF00257F7A /* Preview Assets.xcassets in Resources */,
+				090B65DA255977FF00257F7A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		30E6E2F725512E7A00F1DF78 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -268,6 +337,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		090B65CF255977FC00257F7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090B65D8255977FC00257F7A /* ContentView.swift in Sources */,
+				090B65D6255977FC00257F7A /* PokeMasterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		30E6E2F525512E7A00F1DF78 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -323,6 +401,50 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		090B65DF255977FF00257F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PokeMaster/Preview Content\"";
+				DEVELOPMENT_TEAM = B5SJ8JYP65;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PokeMaster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jj.PokeMaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		090B65E0255977FF00257F7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PokeMaster/Preview Content\"";
+				DEVELOPMENT_TEAM = B5SJ8JYP65;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PokeMaster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jj.PokeMaster;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		30E6E32125512E7D00F1DF78 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -566,6 +688,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		090B65E1255977FF00257F7A /* Build configuration list for PBXNativeTarget "PokeMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				090B65DF255977FF00257F7A /* Debug */,
+				090B65E0255977FF00257F7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		30E6E2F425512E7A00F1DF78 /* Build configuration list for PBXProject "MyWidget" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
