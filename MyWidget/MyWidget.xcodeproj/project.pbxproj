@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09BB29D92557ACBB00FB3140 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BB29D82557ACBB00FB3140 /* CalculatorBrain.swift */; };
 		3013B32525553CCB0014A15A /* CalculatorButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3013B32425553CCB0014A15A /* CalculatorButtonItem.swift */; };
 		30E6E2FD25512E7A00F1DF78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E6E2FC25512E7A00F1DF78 /* AppDelegate.swift */; };
 		30E6E2FF25512E7A00F1DF78 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E6E2FE25512E7A00F1DF78 /* SceneDelegate.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09BB29D82557ACBB00FB3140 /* CalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 		3013B32425553CCB0014A15A /* CalculatorButtonItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorButtonItem.swift; sourceTree = "<group>"; };
 		30E6E2F925512E7A00F1DF78 /* MyWidget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyWidget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30E6E2FC25512E7A00F1DF78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -104,11 +106,12 @@
 				30E6E2FC25512E7A00F1DF78 /* AppDelegate.swift */,
 				30E6E2FE25512E7A00F1DF78 /* SceneDelegate.swift */,
 				30E6E30025512E7A00F1DF78 /* ContentView.swift */,
+				09BB29D82557ACBB00FB3140 /* CalculatorBrain.swift */,
+				3013B32425553CCB0014A15A /* CalculatorButtonItem.swift */,
 				30E6E30225512E7C00F1DF78 /* Assets.xcassets */,
 				30E6E30725512E7C00F1DF78 /* LaunchScreen.storyboard */,
 				30E6E30A25512E7C00F1DF78 /* Info.plist */,
 				30E6E30425512E7C00F1DF78 /* Preview Content */,
-				3013B32425553CCB0014A15A /* CalculatorButtonItem.swift */,
 			);
 			path = MyWidget;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 				30E6E2FD25512E7A00F1DF78 /* AppDelegate.swift in Sources */,
 				30E6E2FF25512E7A00F1DF78 /* SceneDelegate.swift in Sources */,
 				3013B32525553CCB0014A15A /* CalculatorButtonItem.swift in Sources */,
+				09BB29D92557ACBB00FB3140 /* CalculatorBrain.swift in Sources */,
 				30E6E30125512E7A00F1DF78 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
